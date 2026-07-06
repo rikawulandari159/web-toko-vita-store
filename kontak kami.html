@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navbar Toko Vita Store</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<style>
+     body {
+            background-color: lightpink; 
+        }
+
+    .navbar a {
+        color: white;
+        text-decoration-color: pink;
+        margin: 10px;
+
+    }
+        footer { 
+            overflow-x: hidden; 
+            width: 100%; 
+        } 
+        footer .container { 
+            max-width: 100%; 
+            padding: 0 15px; 
+            box-sizing: border-box; 
+        } 
+        footer p, footer li, footer a {
+            word-wrap: break-word; 
+            overflow-wrap: break-word; 
+            white-space: normal; 
+            word-break: break-word; 
+        }
+        footer .col-md-6, 
+        footer .col-md-3 { 
+            box-sizing: border-box; 
+            padding: 0 10px; 
+        }
+
+      .jumbotron {
+            background-color: #2e4d68;
+            color: white;
+            padding: 80px 0;
+            margin-bottom: 0;
+        }
+        .fitur-ikon {
+            font-size: 50px;
+            color: #2e4d68;
+            margin-bottom: 15px;
+        }
+        .thumbnail img {
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+        }
+        
+         footer {
+            margin-top: 50px;
+        }
+        footer {
+            background-color: #2e241c;
+            color: #dfd5ca;
+            padding: 30px 0 10px 0;
+            margin-top: 50px;
+        }
+        footer a {
+            color: #e6c594;
+        }
+        footer a:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    
+</style>
+</head>
+<body>  
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle Nav</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+<!--Navbar-->
+        <a class="navbar-brand " href="#">
+            Toko Vita Store
+        </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+            <li class="active"><a href="Index.html"> INDEX <span class="sr-only">(current)</span></a></li>
+            <li><a href="produk(rika).html"> PRODUK</a></li>
+            <li><a href="Tentang Kami.html"> TENTANG</a></li>
+            <li><a href="kontak kami.html"> KONTAK</a></li>
+            <li><a href="lokasi.html"> LOKASI</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+
+<!--Kontak Kami-->
+<!-- Awal Page Content / Kontak Kami -->
+<section id="kontak-kami" style="padding: 60px 0; background-color: #ffffff;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                
+                <!-- Judul Utama Halaman -->
+                <div class="text-center" style="margin-bottom: 40px;">
+                    <h2 style="font-weight: 800; color: #2c3e50;">
+                        <span class="glyphicon glyphicon-phone-alt" style="color: #3498db;"></span> HUBUNGI VITA STORE
+                    </h2>
+                    <p class="text-muted" style="font-size: 16px; max-width: 600px; margin: 10px auto 0 auto;">
+                        Punya pertanyaan mengenai produk kami atau ingin memesan dalam jumlah banyak? Hubungi layanan pelanggan kami sekarang.
+                    </p>
+                    <div style="width: 60px; height: 3px; background-color: #3498db; margin: 15px auto 0 auto;"></div>
+                </div>
+
+                <div class="row">
+                    <!-- KOLOM KIRI: FORMULIR HUBUNGI KAMI -->
+                    <div class="col-md-12" style="margin-bottom: 30px;">
+                        <div class="panel panel-default" style="border: 1px solid #eef2f5; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+                            <div class="panel-heading" style="background-color: #f8f9fa; font-weight: bold; color: #2c3e50;">
+                                <span class="glyphicon glyphicon-envelope"></span> Kirim Pesan Langsung
+                            </div>
+                            <div class="panel-body" style="padding: 25px;">
+                                <form action="#" method="post">
+                                    <div class="mb-3" style="margin-bottom: 15px;">
+                                        <label class="form-label" style="font-weight: 600; color: #555;">Nama Lengkap</label>
+                                        <input type="text" class="form-control" placeholder="Masukkan nama Anda" required>
+                                    </div>
+                                    
+                                    <div class="mb-3" style="margin-bottom: 15px;">
+                                        <label class="form-label" style="font-weight: 600; color: #555;">Nomor WhatsApp</label>
+                                        <input type="text" class="form-control" placeholder="Contoh: 08123456xxx" required>
+                                    </div>
+
+                                    <div class="mb-3" style="margin-bottom: 15px;">
+                                        <label class="form-label" style="font-weight: 600; color: #555;">Kategori Pertanyaan / Pesanan</label>
+                                        <select class="form-control">
+                                            <option>- Pilih Kategori Produk -</option>
+                                            <option>Kosmetik & Skincare</option>
+                                            <option>Pakaian & Fashion</option>
+                                            <option>Perlengkapan Rumah Tangga</option>
+                                            <option>Alat Tulis Sekolah (ATS)</option>
+                                            <option>Accessories & Pernak-pernik</option>
+                                            <option>Lainnya (Komplain / Saran / Kerjasama)</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="mb-3" style="margin-bottom: 20px;">
+                                        <label class="form-label" style="font-weight: 600; color: #555;">Detail Pesan</label>
+                                        <textarea class="form-control" rows="5" placeholder="Tuliskan detail barang yang ingin ditanyakan atau dipesan..." required></textarea>
+                                    </div>
+
+                                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#pesanTerkirim">
+                                        Klik untuk memesan produk
+                                    </button>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Pesan Terkirim -->
+                <div class="modal fade" id="pesanTerkirim" tabindex="-1" role="dialog" aria-labelledby="pesanTerkirimLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header" style="background-color:#28a745; color:#fff;">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:#fff;"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="pesanTerkirimLabel"><span class="glyphicon glyphicon-ok-circle"></span> Pesan Terkirim</h4>
+                            </div>
+                            <div class="modal-body text-center">
+                                <h4>Terima Kasih!</h4>
+                                <p>Pesan Anda telah berhasil dikirim kepada <strong>Owner Vita Store</strong>.</p>
+                                <p>Silakan tunggu balasan melalui WhatsApp.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Tutup</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+    <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p><strong>🛒Toko Vita Store</strong></p>
+                <p>Belanja aman dan terpercaya menjual koemetik-pakaian-perlengkapan rumah tangga-alat tulis sekolah-aksesories-dll.</p>
+            </div>
+            <div class="col-md-3">
+                <h5><strong>Alamat</strong></h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Jl. Desa Paluh Manan, Dsn I, Kec.Hamparan Perak, Kab.Deli Serdang</a></li>
+                    <li><a href="#">Patokan Di dekat Depan Masjid Nurul-Huda.</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5><strong>Hubungi Kami</strong></h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Di Bawah Ini Adalah Nomor Kontak Kami</a></li>
+                    <li><a href="#">0831-1508-0341</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr style="border-color: #423429;">
+        <div class="row text-center">
+            <marquee>
+            <p>&copy; 2026 Toko Vita Store.<span style="color: #e26d5c;"></span></p>
+            </marquee>
+        </div>
+    </div>   
+    </footer>
+
+<script src="bootstrap/js/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

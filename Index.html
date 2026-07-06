@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navbar Toko Vita Store</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    body {
+            padding-top: 60px;
+        }
+        .carousel-inner > .item > img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+        body {
+            background-color: white; 
+        }
+
+    .navbar a {
+        color: white;
+        text-decoration-color: pink;
+        margin: 10px;
+        }
+
+      .jumbotron {
+            background-color: #2e4d68;
+            color: white;
+            padding: 80px 0;
+            margin-bottom: 0;
+        }
+        .fitur-ikon {
+            font-size: 50px;
+            color: #2e4d68;
+            margin-bottom: 15px;
+        }
+        .thumbnail img {
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+        }
+        footer {
+            margin-top: 50px;
+        }
+        footer {
+            background-color: #2e241c;
+            color: #dfd5ca;
+            padding: 30px 0 10px 0;
+            margin-top: 50px;
+        }
+        footer a {
+            color: #e6c594;
+        }
+        footer a:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+</style>
+</head>
+<body>  
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle Nav</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+<!--Navbar-->
+        <a class="navbar-brand " href="#">
+            TOKO VITA STORE
+        </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="Index.html"> INDEX <span class="sr-only">(current)</span></a></li>
+            <li><a href="produk(rika).html"> PRODUK</a></li>
+            <li><a href="Tentang Kami.html"> TENTANG</a></li>
+            <li><a href="kontak kami.html"> KONTAK</a></li>
+            <li><a href="lokasi.html"> LOKASI</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+     <div id="contoh-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#contoh-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#contoh-carousel" data-slide-to="1"></li>
+            <li data-target="#contoh-carousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+            <!-- Slider Pertama -->
+            <div class="item active">
+                <img src="foto.jpeg" alt="Vita Store">
+                <div class="carousel-caption">
+                    <h1> Toko Vita Store</h1>
+                    <h4>Toko Serba Ada</h4>
+                    <p>Temukan Barang-barang yang kamu butuhkan disini tersedia Banyak Kebutuhan rumah tangga, baju-baju anak dan ibu, kosmetik, alat tulis Dll.</p>
+                    <a href="produk(rika).html" class="btn btn-danger">Lihat Produk</a>
+                </div>
+            </div>
+
+            <!-- Slider Kedua -->
+            <div class="item">
+                <img src="Rumah tangga.jpg.jpeg" alt="Perlengkapan Rumah Tangga">
+                <div class="carousel-caption">
+                    <h1>Perlengkapan Rumah Tangga</h1>
+                    <h4>Solusi Praktis untuk Rumah Idaman</h4>
+                    <p>Menyediakan berbagai peralatan dapur, dekorasi ruangan, dan alat kebersihan rumah tangga yang kokoh dan estetis.</p>
+                    <a href="produk(rika).html" class="btn btn-danger">Selengkapnya</a>
+                </div>
+            </div>
+
+            <!-- Slider Ketiga -->
+            <div class="item">
+                <img src="alat tulis.jpeg" alt="Alat Tulis Sekolah">
+                <div class="carousel-caption">
+                    <h1>Alat Tulis</h1>
+                    <h4>Kebutuhan Sekolah</h4>
+                    <p>Buku, alat tulis, tas sekolah.</p>
+                    <a href="kontak kami.html" class="btn btn-danger">Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#contoh-carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#contoh-carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h2>JANGAN LUPA!</h2>
+                    <p>Dapatkan potongan 10.000 dengan minimal pembelanjaan Rp 300.000. Berlaku di setiap pembelian</p>
+                    <p>
+                        <a class="btn btn-warning btn-lg" href="kontak kami.html" role="button">Pesan via WA</a>
+                        <a class="btn btn-danger btn-lg" href="produk(rika).html" role="button">Lihat Semua Katalog</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h2><span class="glyphicon glyphicon-th-large"></span> KATEGORI PRODUK VITA STORE</h2>
+                    <p>Jelajahi berbagai pilihan produk terbaik kami di bawah ini.</p>
+                    <hr>
+
+                    <div class="row">
+                        <!-- Kategori 1 -->
+                        <div class="col-md-4">
+                            <h3>Pakaian & Fashion</h3>
+                            <img src="pakaian.jpeg" class="img-thumbnail img-responsive" alt="Pakaian" width="155">
+                            <p>fashion outfit harian terbaru yang nyaman dipakai dan adem untuk anak dan ibu.</p>
+                            <p><small><span class="glyphicon glyphicon-tags"></span> Koleksi Terbaru</small></p>
+                            <a href="produk(rika).html" class="btn btn-primary btn-xs">Lihat Koleksi</a>
+                        </div>
+
+                        <!-- Kategori 2 -->
+                        <div class="col-md-4">
+                            <h3>Kosmetik & Skincare</h3>
+                            <img src="kosmetik.jpg.jpeg" class="img-thumbnail img-responsive" alt="Kosmetik" width="300">
+                            <p>Tampil percaya diri setiap hari. Sedia berbagai produk kosmetik, bedak, lipstik,dan perawatan kulit aman berizin BPOM.</p>
+                            <p><small><span class="glyphicon glyphicon-heart"></span> Terlaris</small></p>
+                            <a href="produk(rika).html" class="btn btn-primary btn-xs">Lihat Koleksi</a>
+                        </div>
+
+                        <!-- Kategori 3 -->
+                        <div class="col-md-4">
+                            <h3>Peralatan Rumah Tangga</h3>
+                            <img src="Peralatan dapur.jpeg" class="img-thumbnail img-responsive" alt="Rumah Tangga" width="260">
+                            <p>Lengkapi kebutuhan dapur seperti penanak nasi dan rumahmu, wadah makanan piring-piring dan lengkapi alat pembersih rumah dengan sapu, kain pel dan alat mandi seperti tong/ember dan gayung.</p>
+                            <p><small><span class="glyphicon glyphicon-home"></span> Kebutuhan Rumah</small></p>
+                            <a href="produk(rika).html" class="btn btn-primary btn-xs">Lihat Koleksi</a>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:20px;">
+                        <!-- Kategori 4 -->
+                        <div class="col-md-4">
+                            <h3>Alat Tulis Sekolah</h3>
+                            <img src="alat tulis.jpeg" class="img-thumbnail img-responsive" alt="ATK" width="300">
+                            <p>Persiapan tahun ajaran baru jadi lebih mudah. Paket lengkap buku tulis, pulpen, pensil warna, kotak pensil, dan perlengkapan ujian.</p>
+                            <p><small><span class="glyphicon glyphicon-pencil"></span> Perlengkapan Sekolah</small></p>
+                            <a href="produk(rika).html" class="btn btn-primary btn-xs">Lihat Koleksi</a>
+                        </div>
+
+                        <!-- Kategori 5 -->
+                        <div class="col-md-4">
+                            <h3>Accessories Cantik</h3>
+                            <img src="Accessories.jpeg" class="img-thumbnail img-responsive" alt="Aksesoris" width="300">
+                            <p>Tambah sentuhan manis pada gayamu dengan jepit rambut Korea, ikat rambut, dan bando.</p>
+                            <p><small><span class="glyphicon glyphicon-gift"></span> Pelengkap Gaya</small></p>
+                            <a href="produk(rika).html" class="btn btn-primary btn-xs">Lihat Koleksi</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div> <br> <br>
+
+    
+<!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>🛒Toko Vita Store</strong></p>
+                    <p>Belanja aman dan terpercaya menjual koemetik-pakaian-perlengkapan rumah tangga-alat tulis sekolah-aksesories-dll.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5><strong>Alamat</strong></h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Jl. Desa Paluh Manan, Dsn I, Kec.Hamparan Perak, Kab.Deli Serdang</a></li>
+                        <li><a href="#"> Patokan Di dekat Depan Masjid Nurul-Huda.</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5><strong>Hubungi Kami</strong></h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#"> Di Bawah Ini Adalah Nomor Kontak Kami</a></li>
+                        <li><a href="#"> 0831-1508-0341</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr style="border-color: #423429;">
+            <div class="row text-center">
+                <marquee>
+                <p>&copy; 2026 Toko Vita Store.<span style="color: #e26d5c;"></span></p>
+                </marquee>
+            </div>
+        </div>
+    </footer>
+
+<script src="bootstrap/js/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
